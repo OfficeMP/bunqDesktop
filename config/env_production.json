@@ -1,0 +1,5 @@
+{
+    "name": "production",
+    "NODE_ENV": "PRODUCTION",
+    "description": "Add here any environment specific stuff you like."
+}

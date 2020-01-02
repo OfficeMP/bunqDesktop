@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "target": "es2017",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "allowJs": true,
+        "lib": [
+            "es2016.array.include",
+            "es2016",
+            "es2017",
+            "webworker",
+            "dom"
+        ]
+    },
+    "exclude": [
+        "**/*.test.ts"
+    ],
+    "jest": {
+        "transform": {
+            "^.+\\.tsx?$": "ts-jest"
+        },
+        "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js",
+            "jsx",
+            "json",
+            "node"
+        ]
+    }
+}

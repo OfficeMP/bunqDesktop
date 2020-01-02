@@ -1,0 +1,53 @@
+html,
+body {
+    margin: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+input,
+button,
+textarea {
+    -webkit-app-region: no-drag;
+}
+
+#app {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+main {
+    display: flex;
+    flex: 2;
+    height: calc(100vh - 50px);
+}
+
+.options-drawer > div:first-child {
+    top: 50px;
+}
+
+.sticky-container {
+    top: 60px !important;
+}
+
+.money-input {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: center;
+    margin: 25px auto;
+    outline: none;
+}
+
+.rainbow-background {
+    background-image: $backgroundRainbow;
+}
